@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pioneer Bank</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div id="login-area">
+        <h1 class="text-center login-title">Pioneer Bank</h1>
+        <div class="submit-area">
+            <h4 class="text-title">Login</h4>
+            <input type="text" class="form-control" placeholder="john@email.com"><br>
+            <input type="password" class="form-control" placeholder="......"><br>
+            <button id="login" class="btn btn-success">Enter</button>
+        </div>
+    </div>
+    <div id="transaction-area">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="deposit status">
+                    <h4>Deposit</h4>
+                    <h2>$<span id="currentDeposit">00</span></h2>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="withdraw status">
+                    <h4>Withdraw</h4>
+                    <h2>$<span id="currentwithdraw">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="balance status">
+                    <h4>Balance</h4>
+                    <h2>$<span id="currentbalance">1200</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="submit-area">
+                    <h4 class="text-title">Deposit</h4>
+                    <input id="depositAmount" type="text" placeholder="$amout you want to deposit" class="form-control"><br>
+                    <button id="addDeposit" class="btn btn-success">Deposit</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="submit-area">
+                    <h4 class="text-title">Withdraw</h4>
+                    <input id="withdrawamount" type="text" placeholder="$amout you want to withdraw" class="form-control"><br>
+                    <button id="addwithdraw" class="btn btn-success">Withdraw</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/srcipt.js"></script>
+</body>
+</html>

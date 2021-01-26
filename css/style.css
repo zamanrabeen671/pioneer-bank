@@ -1,0 +1,41 @@
+body{
+    padding: 100px;
+    background-color: antiquewhite;
+}
+.submit-area{
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+    background-color: crimson;
+}
+#transaction-area{
+    display: none;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.status{
+    margin: 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.text-title{
+    color:rgb(234, 235, 225);
+    font-size: 30px;
+    font-weight: bold;
+}
+.login-title{
+    color: rgb(13, 69, 141);
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-shadow: 2px 2px 3px gray;
+}
